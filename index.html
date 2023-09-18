@@ -2,19 +2,16 @@
 <html>
 
 <style>
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
 
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
+  .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
 .image-cropper {
   margin: auto;
   width: 200px;
@@ -77,17 +74,17 @@ body {
 </div>
  <p><br style=“line-height:100px;”> </p> 
 <div class="row">
-    <div class="column">
+    <div class="container">
        <div class="image-cropper">
          <span style="float:left;">
         <img src="https://github.com/TejasPrasanna/TejasPrasanna.github.io/blob/main/opic3.jpg?raw=true"class="rounded" />
            </span> 
       </div>
     </div>
-    <div class="column">
+  
       <div class="text">
         <p> I am a graduate student in the department of Physics at Ohio State University. </p>
-      </div>
+    
     </div>
     </div>
 
